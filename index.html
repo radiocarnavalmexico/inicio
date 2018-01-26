@@ -6,16 +6,16 @@
        <style>
            body{
 		display:flex;
-		   flex-row:row wrap;
+		   flex-row:row nowrap;
 		 align-items:center;
 		  justify-content:center;
 		   background-color:black;
 	       }
-@media only screen and (max-width: 699px) {
-video{
-width:100%;
-}
-}
+@media screen and (max-width: 699px) and (min-width: 220px){
+	video{
+	flex-basis:100%;	
+	}
+	       }
         </style>
     </head>
     <body>
