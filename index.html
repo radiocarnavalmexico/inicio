@@ -11,8 +11,9 @@
 		}
 		body {
     background-color: black;
-            display:block;
-    margin:0 auto;
+    flex-flow:row wrap;
+     justify-content:center;
+ align-items:center;
 	color:white;
 	/*text-align:center;
 }
@@ -20,14 +21,12 @@
 a{color:white;font-weight:bold;text-align:center; margin:0 auto;}*/
 @media (min-width:700px) {
 video{
-    width:auto;
+    flex-basis:100%;
 }
 }
 @media (max-width:639px) {
 video{
-margin:0;
-padding:0;
-    width:100%;
+flex-basis:100%;
 }
 }
         </style>
